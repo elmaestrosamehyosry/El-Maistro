@@ -28,7 +28,7 @@ const categoryImages = {
 
     'gardn': [
         'images/gardnt1.jpg', 'images/v2.jpg', 'images/gardn3.jpg', 'images/v4.jpg',
-        'images/gardn5.jpg', 'images/gardn6.jpg', 'images/v7.jpg', 'images/gardn8.jpg'
+        'images/gardn5.jpg', 'images/gardn6.jpg', 'images/gardn7.jpg', 'images/gardn8.jpg'
     ],
     
     'garden': [
