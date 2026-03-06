@@ -27,23 +27,16 @@ const categoryImages = {
     ], 
 
     'gardn': [
-        'images/gardnt1.jpg', 'images/v2.jpg', 'images/gardn3.jpg', 'images/v4.jpg',
+        'images/gardnt1.jpg', 'images/gardn2.jpg', 'images/gardn3.jpg', 'images/gardn4.jpg',
         'images/gardn5.jpg', 'images/gardn6.jpg', 'images/gardn7.jpg', 'images/gardn8.jpg'
     ],
-    
-    'garden': [
-        'images/garden1.jpg',
-        'images/garden2.jpg',
-        'images/garden3.jpg',
-        'images/garden4.jpg',
-        'images/garden5.jpg',
-        'images/garden6.jpg',
-        'images/garden7.jpg',
-        'images/garden8.jpg',
-        'images/garden9.jpg',
-        'images/garden10.jpg',
-        'images/garden11.jpg'
+
+    'srer': [
+        'images/srer1.jpg', 'images/srer2.jpg', 'images/srer3.jpg', 'images/srer4.jpg',
+        'images/srer5.jpg', 'images/srer6.jpg', 'images/srer7.jpg', 'images/srer8.jpg'
     ],
+    
+   
     'master-bedroom': [
         'images/master1.jpg', 'images/master2.jpg', 'images/master3.jpg', 'images/master4.jpg',
         'images/master5.jpg', 'images/master6.jpg', 'images/master7.jpg', 'images/master8.jpg',
