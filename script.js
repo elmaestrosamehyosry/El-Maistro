@@ -21,20 +21,14 @@ const categoryImages = {
         'images/Screenshot17.jpg', 'images/Screenshot18.jpg', 'images/Screenshot19.jpg'
     ],
 
-    'fela_3': [
-        'images/Screenshot1.jpg', 'images/Screenshot2.jpg', 'images/Screenshot3.jpg', 'images/Screenshot4.jpg',
-        'images/Screenshot5.jpg', 'images/Screenshot6.jpg', 'images/Screenshot7.jpg', 'images/Screenshot8.jpg',
-        'images/Screenshot9.jpg', 'images/Screenshot10.jpg', 'images/Screenshot11.jpg', 'images/Screenshot12.jpg',
-        'images/Screenshot13.jpg', 'images/Screenshot14.jpg', 'images/Screenshot15.jpg', 'images/Screenshot16.jpg',
-        'images/Screenshot17.jpg', 'images/Screenshot18.jpg', 'images/Screenshot19.jpg'
+    'bab': [
+        'images/bab1.jpg', 'images/bab2.jpg', 'images/bab3.jpg', 'images/bab4.jpg',
+        'images/bab5.jpg', 'images/bab6.jpg', 'images/bab7.jpg', 'images/bab8.jpg'o
     ], 
 
-    'fela_3': [
-        'images/Screenshot1.jpg', 'images/Screenshot2.jpg', 'images/Screenshot3.jpg', 'images/Screenshot4.jpg',
-        'images/Screenshot5.jpg', 'images/Screenshot6.jpg', 'images/Screenshot7.jpg', 'images/Screenshot8.jpg',
-        'images/Screenshot9.jpg', 'images/Screenshot10.jpg', 'images/Screenshot11.jpg', 'images/Screenshot12.jpg',
-        'images/Screenshot13.jpg', 'images/Screenshot14.jpg', 'images/Screenshot15.jpg', 'images/Screenshot16.jpg',
-        'images/Screenshot17.jpg', 'images/Screenshot18.jpg', 'images/Screenshot19.jpg'
+    'gardn': [
+        'images/gardnt1.jpg', 'images/v2.jpg', 'images/gardn3.jpg', 'images/v4.jpg',
+        'images/gardn5.jpg', 'images/gardn6.jpg', 'images/v7.jpg', 'images/gardn8.jpg'
     ],
     
     'garden': [
