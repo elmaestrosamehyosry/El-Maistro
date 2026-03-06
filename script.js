@@ -21,7 +21,15 @@ const categoryImages = {
         'images/Screenshot17.jpg', 'images/Screenshot18.jpg', 'images/Screenshot19.jpg'
     ],
 
-   
+    'bab': [
+        'images/bab1.jpg', 'images/bab2.jpg', 'images/bab3.jpg', 'images/bab4.jpg',
+        'images/bab5.jpg', 'images/bab6.jpg', 'images/bab7.jpg', 'images/bab8.jpg'
+    ], 
+
+    'gardn': [
+        'images/gardnt1.jpg', 'images/v2.jpg', 'images/gardn3.jpg', 'images/v4.jpg',
+        'images/gardn5.jpg', 'images/gardn6.jpg', 'images/v7.jpg', 'images/gardn8.jpg'
+    ],
     
     'garden': [
         'images/garden1.jpg',
