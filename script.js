@@ -33,7 +33,7 @@ const categoryImages = {
 
     'srer': [
         'images/srer1.jpg', 'images/srer2.jpg', 'images/srer3.jpg', 'images/srer4.jpg',
-        'images/srer5.jpg'
+        'images/srer5.jpg','images/srer4.jpg'
     ],
     
    
