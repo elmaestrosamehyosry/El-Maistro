@@ -6,7 +6,9 @@ const categoryImages = {
         'images/reception9.jpg', 'images/reception10.jpg', 'images/reception11.jpg', 'images/reception12.jpg',
         'images/reception13.jpg', 'images/reception14.jpg', 'images/reception15.jpg', 'images/reception16.jpg',
         'images/reception17.jpg', 'images/reception18.jpg', 'images/reception19.jpg', 'images/reception20.jpg',
-        'images/reception21.jpg', 'images/reception22.jpg', 'images/reception23.jpg', 'images/reception24.jpg'
+        'images/reception21.jpg', 'images/reception22.jpg', 'images/reception23.jpg', 'images/reception24.jpg','images/reception25.jpg'
+        ,'images/reception26.jpg','images/reception27.jpg','images/reception28.jpg','images/reception29.jpg','images/reception30.jpg'
+        ,'images/reception31.jpg','images/reception32.jpg','images/reception33'
     ],
     'fela-k': [
         'images/oqto1.jpg', 'images/oqto2.jpg', 'images/oqto3.jpg', 'images/oqto4.jpg',
@@ -43,20 +45,22 @@ const categoryImages = {
         'images/master9.jpg', 'images/master10.jpg', 'images/master11.jpg', 'images/master12.jpg',
         'images/master13.jpg', 'images/master14.jpg', 'images/master15.jpg', 'images/master16.jpg',
         'images/master17.jpg', 'images/master18.jpg', 'images/master19.jpg', 'images/master20.jpg'
+        , 'images/master21.jpg', 'images/master22.jpg', 'images/master23.jpg', 'images/master24.jpg'
     ],
     'boys-room': [
         'images/boy1.jpg', 'images/boy2.jpg', 'images/boy3.jpg', 'images/boy4.jpg',
         'images/boy5.jpg', 'images/boy6.jpg', 'images/boy7.jpg', 'images/boy8.jpg',
-        'images/boy9.jpg', 'images/boy10.jpg'
+        'images/boy9.jpg', 'images/boy10.jpg', 'images/boy11.jpg', 'images/boy12.jpg', 'images/boy13.jpg'
     ],
     'girls-room': [
         'images/girl1.jpg', 'images/girl2.jpg', 'images/girl3.jpg', 'images/girl4.jpg',
-        'images/girl5.jpg', 'images/girl6.jpg', 'images/girl7.jpg'
+        'images/girl5.jpg', 'images/girl6.jpg', 'images/girl7.jpg', 'images/girl8.jpg'
+        , 'images/girl8.jpg', 'images/girl9.jpg', 'images/girl10.jpg'
     ],
     'small-bathroom': [
         'images/small1.jpg', 'images/small2.jpg', 'images/small3.jpg', 'images/small4.jpg',
         'images/small5.jpg', 'images/small6.jpg', 'images/small7.jpg', 'images/small8.jpg',
-        'images/small9.jpg'
+        'images/small9.jpg','images/small10.jpg','images/small11.jpg'
     ],
     'large-bathroom': [
         'images/big1.jpg',
@@ -69,14 +73,16 @@ const categoryImages = {
         'images/big8.jpg',
         'images/big9.jpg',
         'images/big10.jpg',
-        'images/big11.jpg'
+        'images/big11.jpg',
+        'images/big12.jpg',
+        'images/big13.jpg'
     ],
     'kitchen': [
         'images/kichin1.jpg', 'images/kichin2.jpg', 'images/kichin3.jpg', 'images/kichin4.jpg',
         'images/kichin5.jpg', 'images/kichin6.jpg', 'images/kichin7.jpg', 'images/kichin8.jpg',
         'images/kichin9.jpg', 'images/kichin10.jpg', 'images/kichin11.jpg', 'images/kichin12.jpg',
         'images/kichin13.jpg', 'images/kichin14.jpg', 'images/kichin15.jpg', 'images/kichin16.jpg',
-        'images/kichin17.jpg'
+        'images/kichin17.jpg','images/kichin18.jpg','images/kichin19.jpg','images/kichin20.jpg'
     ]
 };
 
