@@ -42,7 +42,7 @@ const categoryImages = {
     'master-bedroom': [
         'images/master1.jpg', 'images/master2.jpg', 'images/master3.jpg', 'images/master4.jpg',
         'images/master5.jpg', 'images/master6.jpg', 'images/master7.jpg', 'images/master8.jpg',
-        'images/master9.jpg', 'images/master10.jpg', 'images/master11.jpg', 'images/master12.jpg',
+        'images/master9.jpg', 'images/master10.jpg',  'images/master12.jpg',
         'images/master13.jpg', 'images/master14.jpg', 'images/master15.jpg', 'images/master16.jpg',
         'images/master17.jpg', 'images/master18.jpg', 'images/master19.jpg', 'images/master20.jpg'
         , 'images/master21.jpg', 'images/master22.jpg', 'images/master23.jpg', 'images/master24.jpg'
