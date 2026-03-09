@@ -82,7 +82,7 @@ const categoryImages = {
         'images/kichin5.jpg', 'images/kichin6.jpg', 'images/kichin7.jpg', 'images/kichin8.jpg',
         'images/kichin9.jpg', 'images/kichin10.jpg', 'images/kichin11.jpg', 'images/kichin12.jpg',
         'images/kichin13.jpg', 'images/kichin14.jpg', 'images/kichin15.jpg', 'images/kichin16.jpg',
-        'images/kichin17.jpg','images/kichin18.jpg','images/kichin19.jpg','images/kichin20.jpg'
+        'images/kichin17.jpg','images/kitchin18.jpg','images/kichin19.jpg','images/kitchin20.jpg'
     ]
 };
 
