@@ -1068,3 +1068,20 @@ header {
 .scroll-to-survey:active {
     transform: scale(0.95);
 }
+
+
+
+
+
+
+
+.testimonials-link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* المسافة بين الروابط */
+}
+
+/* أو إذا كنت تريد margin على كل رابط */
+.testimonials-link a {
+  margin-bottom: 20px;
+}
