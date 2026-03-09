@@ -54,7 +54,7 @@ const categoryImages = {
     ],
     'girls-room': [
         'images/girl1.jpg', 'images/girl2.jpg', 'images/girl3.jpg', 'images/girl4.jpg',
-        'images/girl5.jpg', 'images/girl6.jpg', 'images/girl7.jpg', 'images/girl8.jpg'
+        'images/girl5.jpg', 'images/girl6.jpg', 'images/girl7.jpg'
         , 'images/girl8.jpg', 'images/girl9.jpg', 'images/girl10.jpg'
     ],
     'small-bathroom': [
