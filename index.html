@@ -95,20 +95,7 @@
                         <input type="tel" id="phone" name="phoneNumber" placeholder="رقم للتواصل (يفضل واتساب)" dir="ltr" required>
                     </div>
 
-                     <div class="form-group">
-                        <label for="location">نوع الاصباغ</label>
-                        <select id="location" name="locationType" required>
-                            <option value="اختر نوع الاصباغ">اختر نوع الاصباغ</option>
-                            <option value="جوتن">جوتن</option>
-                            <option value="GLC">GLC</option>
-                             <option value="سايبس">سايبس</option>
-                             <option value="سكيب">سكيب</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="area">مساحة الوحدة</label>
-                        <input type="text" id="area" name="area" placeholder="" required>
-                    </div>
+                   
 
                     
                     <!-- Row 2 -->
@@ -124,6 +111,33 @@
                         <label for="area">المنطقة</label>
                         <input type="text" id="area" name="area" placeholder="مثال: التجمع الخامس، زايد..." required>
                     </div>
+
+
+
+                    <div class="form-group">
+    <label for="unit-area">مساحة الوحدة (متر مربع)</label>
+    <input type="number" id="unit-area" name="unitArea" placeholder="مثال: 150" required>
+</div>
+<div class="form-group">
+    <label for="apartment">حالة الشقة الحالية</label>
+    <select id="apartment" name="apartmentState" required>
+        <option value="">اختر حالة الشقة</option>
+        <option value="محارة">محارة</option>
+        <option value="طوب أحمر">طوب أحمر</option>
+    </select>
+</div>
+
+<div class="form-group full">
+    <label for="paint-type">نوع الأصباغ (الدهانات) المفضل</label>
+    <select id="paint-type" name="paintType" required>
+        <option value="">اختر ماركة الدهان</option>
+        <option value="جوتن">جوتن (Jotun)</option>
+        <option value="GLC">جي إل سي (GLC)</option>
+        <option value="سايبس">سايبس (Sipes)</option>
+        <option value="سكيب">سكيب (Scib)</option>
+        <option value="أخرى">ماركة أخرى</option>
+    </select>
+</div>
 
                     <!-- Row 3 -->
                     <div class="form-group">
