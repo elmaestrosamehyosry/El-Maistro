@@ -111,6 +111,8 @@ const formValidation = {
     electricity: (value) => !value ? "نظام الكهرباء مطلوب" : null,
     plumbing: (value) => !value ? "نظام السباكة مطلوب" : null,
     'customer-location': (value) => !value ? "مكان إقامة العميل مطلوب" : null,
+    'unit-area': (value) => !value ? "مساحة الوحدة مطلوبة" : null,
+    'paint-type': (value) => !value ? "نوع الأصباغ مطلوب" : null,
 };
 
 // ==================== Toast Notification ====================
@@ -303,7 +305,9 @@ document.getElementById('surveyForm').addEventListener('submit', async function(
         designsAvailable: document.getElementById('designs-available').value,
         electricity: document.getElementById('electricity').value,
         plumbing: document.getElementById('plumbing').value,
-        clientLocation: document.getElementById('customer-location').value
+        clientLocation: document.getElementById('customer-location').value,
+        unitArea: document.getElementById('unit-area').value,
+       paintType: document.getElementById('paint-type').value,
     };
 
     let hasErrors = false;
@@ -330,16 +334,18 @@ document.getElementById('surveyForm').addEventListener('submit', async function(
         return;
     }
 
-    const message = `*طلب تسعير / تشطيب جديد* 🏗️✨
+   const message = `*طلب تسعير / تشطيب جديد* 🏗️✨
 
 👤 *الاسم:* ${formData.clientName}
 📱 *رقم الهاتف:* ${formData.phoneNumber}
 🏢 *المكان:* ${formData.locationType}
 🗺️ *المنطقة:* ${formData.area}
+📐 *المساحة:* ${formData.unitArea} متر مربع
 🔢 *الدور:* ${formData.floor}
 🏠 *حالة الشقة:* ${formData.apartmentState}
 🎨 *نوع التصميم:* ${formData.designType}
 ⬜ *الأرضية:* ${formData.flooring}
+🖌️ *نوع الأصباغ:* ${formData.paintType}
 📋 *التصميمات المتاحة:* ${formData.designsAvailable}
 ⚡ *الكهرباء:* ${formData.electricity}
 💧 *السباكة:* ${formData.plumbing}
