@@ -1,3 +1,5 @@
+
+
 // بيانات الصور لكل فئة
 const categoryImages = {
     'reception': [
@@ -101,6 +103,7 @@ const formValidation = {
         if (!/^[0-9\s\-\+\(\)]{10,}$/.test(value)) return "رقم الهاتف غير صحيح";
         return null;
     },
+    how: (value) => !value ? "يرجى اختيار المصدر" : null,
     location: (value) => !value ? "نوع المكان مطلوب" : null,
     area: (value) => !value ? "المنطقة مطلوبة" : null,
     floor: (value) => !value ? "الدور مطلوب" : null,
@@ -296,6 +299,7 @@ document.getElementById('surveyForm').addEventListener('submit', async function(
     const formData = {
         clientName: document.getElementById('name').value,
         phoneNumber: document.getElementById('phone').value,
+        how: document.getElementById('how').value,
         locationType: document.getElementById('location').value,
         area: document.getElementById('area').value,
         floor: document.getElementById('floor').value,
@@ -311,7 +315,7 @@ document.getElementById('surveyForm').addEventListener('submit', async function(
     };
 
     let hasErrors = false;
-    const fieldIds = ['name', 'phone', 'location', 'area', 'floor', 'apartment', 'designType', 'floor-type', 'designs-available', 'electricity', 'plumbing', 'customer-location'];
+    const fieldIds = ['name', 'phone', 'how', 'location', 'area', 'floor', 'apartment', 'designType', 'floor-type', 'designs-available', 'electricity', 'plumbing', 'customer-location'];
     
     fieldIds.forEach(fieldId => {
         const field = document.getElementById(fieldId);
@@ -338,6 +342,7 @@ document.getElementById('surveyForm').addEventListener('submit', async function(
 
 👤 *الاسم:* ${formData.clientName}
 📱 *رقم الهاتف:* ${formData.phoneNumber}
+📢 *عرفتنا من:* ${formData.how}
 🏢 *المكان:* ${formData.locationType}
 🗺️ *المنطقة:* ${formData.area}
 📐 *المساحة:* ${formData.unitArea} متر مربع
