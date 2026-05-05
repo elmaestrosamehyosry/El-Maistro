@@ -7,6 +7,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Tajawal:wght@300;400;500;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDqOrmezQTENN0VKMOQ7BMiLgWnZj-wgm0",
+    authDomain: "maestrooooo.firebaseapp.com",
+    projectId: "maestrooooo",
+    storageBucket: "maestrooooo.firebasestorage.app",
+    messagingSenderId: "913836569282",
+    appId: "1:913836569282:web:2d8c17c1c349dcc021015b"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  // نخليه global عشان نستخدمه في ملفك
+  window.db = db;
+  window.addDoc = addDoc;
+  window.collection = collection;
+</script>
 <body>
     <!-- Background Shapes -->
     <div class="bg-shape bg-shape-1"></div>
@@ -149,7 +170,19 @@
     </select>
 </div>
 
-                   
+                    <!-- Row 3 -->
+                    <div class="form-group">
+                        <label for="floor">الدور</label>
+                        <input type="text" id="floor" name="floor" placeholder="رقم الدور" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apartment">حالة الشقة الحالية</label>
+                        
+                            <option value="">اختر حالة الشقة</option>
+                            <option value="محارة">محارة</option>
+                            <option value="طوب أحمر">طوب أحمر</option>
+                        </select>
+                    </div>
 
                     <!-- Row 4 -->
                     <div class="form-group">
